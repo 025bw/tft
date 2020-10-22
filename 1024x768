@@ -66,7 +66,7 @@ DELAY : 1111
 Mouse : 400 : 500 : Move : 0 : 0 : 0
 ENDIF
 LABEL : create
-IF PIXEL COLOR EQUALS : 55 : 44 : 92042 : 0
+IF PIXEL COLOR EQUALS : 29 : 44 : 9596206 : 0
 Mouse : 80 : 40 : Click : 0 : 0 : 0
 ENDIF
 LABEL : create tft
