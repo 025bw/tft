@@ -47,7 +47,7 @@ Mouse : 512 : 475 : Click : 0 : 0 : 0
 ENDIF
 LABEL : requeue
 DELAY : 50
-IF PIXEL COLOR EQUALS : 55 : 32 : 75841 : 0
+IF PIXEL COLOR EQUALS : 420 : 535 : 366250 : 0
 Mouse : 400 : 540 : LeftButtonDown : 0 : 0 : 0
 DELAY : 50
 Mouse : 400 : 540 : LeftButtonUp : 0 : 0 : 0
