@@ -29,6 +29,7 @@ SWITCH TO WINDOW : Garena - Game Center : 0
 ENDIF
 IF PIXEL COLOR EQUALS : 330 : 46 : 13967650 : 0
 Mouse : 481 : 689 : Click : 0 : 0 : 0
+Mouse : 400 : 400 : Move : 0 : 0 : 0
 ENDIF
 IF PIXEL COLOR EQUALS : 0 : 0 : 1976365 : 1
 SWITCH TO WINDOW : League of Legends : 0
@@ -40,10 +41,12 @@ Mouse : 512 : 540 : LeftButtonDown : 0 : 0 : 0
 DELAY : 50
 Mouse : 512 : 540 : LeftButtonUp : 0 : 0 : 0
 DELAY : 50
+Mouse : 400 : 400 : Move : 0 : 0 : 0
 ENDIF
 LABEL : lock
 IF PIXEL COLOR EQUALS : 512 : 470 : 571572 : 0
 Mouse : 512 : 475 : Click : 0 : 0 : 0
+Mouse : 400 : 400 : Move : 0 : 0 : 0
 ENDIF
 LABEL : requeue
 DELAY : 50
@@ -52,7 +55,7 @@ Mouse : 400 : 540 : LeftButtonDown : 0 : 0 : 0
 DELAY : 50
 Mouse : 400 : 540 : LeftButtonUp : 0 : 0 : 0
 DELAY : 50
-Mouse : 400 : 500 : Move : 0 : 0 : 0
+Mouse : 400 : 400 : Move : 0 : 0 : 0
 DELAY : 50
 ENDIF
 LABEL : queue
@@ -68,52 +71,64 @@ ENDIF
 LABEL : create
 IF PIXEL COLOR EQUALS : 29 : 44 : 9596206 : 0
 Mouse : 80 : 40 : Click : 0 : 0 : 0
+Mouse : 400 : 400 : Move : 0 : 0 : 0
 ENDIF
 LABEL : create tft
 IF PIXEL COLOR EQUALS : 650 : 409 : 15787730 : 0
 Mouse : 434 : 553 : Click : 0 : 0 : 0
+Mouse : 400 : 400 : Move : 0 : 0 : 0
 ENDIF
 LABEL : select tft
 IF PIXEL COLOR EQUALS : 89 : 165 : 291978 : 0
 Mouse : 700 : 171 : Click : 0 : 0 : 0
+Mouse : 400 : 400 : Move : 0 : 0 : 0
 ENDIF
 LABEL : reconnect
 IF PIXEL COLOR EQUALS : 365 : 274 : 68115 : 0
 Mouse : 420 : 285 : Click : 0 : 0 : 0
+Mouse : 400 : 400 : Move : 0 : 0 : 0
 ENDIF
 LABEL : recreate
 IF PIXEL COLOR EQUALS : 347 : 497 : 11445658 : 0
 Mouse : 350 : 545 : Click : 0 : 0 : 0
+Mouse : 400 : 400 : Move : 0 : 0 : 0
 ENDIF
 LABEL : close ads
 IF PIXEL COLOR EQUALS : 578 : 151 : 12164969 : 0
 Mouse : 815 : 40 : Click : 0 : 0 : 0
+Mouse : 400 : 400 : Move : 0 : 0 : 0
 ENDIF
 IF PIXEL COLOR EQUALS : 818 : 61 : 13023373 : 0
 Mouse : 818 : 61 : Click : 0 : 0 : 0
+Mouse : 400 : 400 : Move : 0 : 0 : 0
 ENDIF
 IF PIXEL COLOR EQUALS : 846 : 47 : 13483665 : 0
 Mouse : 846 : 47 : Click : 0 : 0 : 0
+Mouse : 400 : 400 : Move : 0 : 0 : 0
 ENDIF
 IF PIXEL COLOR EQUALS : 818 : 63 : 12957837 : 0
 Mouse : 818 : 63 : Click : 0 : 0 : 0
+Mouse : 400 : 400 : Move : 0 : 0 : 0
 ENDIF
 LABEL : close icon
 IF PIXEL COLOR EQUALS : 822 : 103 : 9999494 : 0
 Mouse : 822 : 103 : Click : 0 : 0 : 0
+Mouse : 400 : 400 : Move : 0 : 0 : 0
 ENDIF
 LABEL : close map
 IF PIXEL COLOR EQUALS : 806 : 501 : 1975080 : 0
 Mouse : 876 : 53 : Click : 0 : 0 : 0
+Mouse : 400 : 400 : Move : 0 : 0 : 0
 ENDIF
 IF PIXEL COLOR EQUALS : 896 : 37 : 4601620 : 0
 Mouse : 879 : 55 : Click : 0 : 0 : 0
+Mouse : 400 : 400 : Move : 0 : 0 : 0
 ENDIF
 IF PIXEL FOUND : 1054495 : 0 : 1 : 520 : 452 : 565 : 571
 FIND PIXEL : 1054495 : 0 : 1 : 520 : 452 : 565 : 571
 Mouse : 0 : 0 : LeftButtonDown : 0 : 1 : 0
 Mouse : 0 : 0 : LeftButtonUp : 0 : 1 : 0
-Mouse : 436 : 548 : Move : 0 : 0 : 0
+Mouse : 400 : 400 : Move : 0 : 0 : 0
 ENDIF
 IF PIXEL COLOR EQUALS : 684 : 360 : 3553074 : 0
 Mouse : 415 : 380 : Click : 0 : 0 : 0
@@ -207,7 +222,6 @@ Mouse : 555 : 35 : Move : 0 : 0 : 0
 ENDIF
 LABEL : buy
 SWITCH TO WINDOW : League of Legends (TM) Client : 0
-LABEL : end
 IF PIXEL COLOR EQUALS : 526 : 374 : 13018992 : 0
 Mouse : 420 : 380 : Click : 0 : 0 : 0
 ENDIF
@@ -251,3 +265,4 @@ GOTO : buy
 ENDIF
 INCREMENT CLIPBOARD : 1
 GOTO : buy
+LABEL : end
